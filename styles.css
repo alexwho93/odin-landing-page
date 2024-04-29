@@ -46,6 +46,17 @@ a {
   gap: 40px;
 }
 
+.left-hero {
+  flex: 3;
+}
+
+.hero-image {
+  max-height: 230px;
+  object-fit: cover;
+  align-self: center;
+  flex: 4;
+}
+
 .hero-title {
   font-size: 48px;
   font-weight: bolder;
@@ -55,13 +66,6 @@ a {
 .hero-text {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.hero-image {
-  height: 230px;
-  width: 600px;
-  object-fit: cover;
-  align-self: center;
 }
 
 .signup-button {
